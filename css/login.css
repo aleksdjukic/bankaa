@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    overflow: hidden;
+}
+
+*, *:focus, *:hover {
+    outline: none;
+}
+
+/*Default background-color*/
+.def-background {
+    background-color: #2C3458;
+}
+
+/*Second background-color*/
+.sec-background {
+    background-color: #384064;
+}
+
+#login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-wrapper {
+    display: flex;
+    max-height: 620px;
+    box-shadow: 0 3px 5px #0000001c;
+    border-radius: 5px;
+}
+
+.form-image > img:nth-child(1) {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form-box > form:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper input {
+    width: 487px;
+    height: 60px;
+    border: 1px solid #161615;
+    margin-bottom: 40px;
+    outline: 0;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    color: #161615;
+    padding-left: 30px;
+}
+
+.form-box {
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-box > h1 {
+    font-size: 62px;
+    line-height: 76px;
+    margin-bottom: 40px;
+}
+
+.form-wrapper .butons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Product Sans Bold', sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    transition: 0.3s linear;
+}
+
+.form-wrapper .butons button:hover {
+    background-color: #12A9E4;
+    transition: 0.3s linear;
+}
+
+.form-wrapper .butons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-wrapper .butons a {
+    color: white;
+    transition: 0.3s linear;
+}
+
+.form-wrapper .butons a:hover {
+    color: #12A9E4;
+    transition: 0.3s linear;
+}

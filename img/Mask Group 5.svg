@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="470" viewBox="0 0 640 470">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4920" data-name="Rectangle 4920" width="640" height="470" transform="translate(1280 3684)" fill="#01839c"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-1280 -3684)" clip-path="url(#clip-path)">
+    <g id="Group_7311" data-name="Group 7311" transform="translate(1280)">
+      <rect id="Rectangle_4917" data-name="Rectangle 4917" width="640" height="597" transform="translate(0 3684)" fill="#01839c"/>
+      <g id="Group_7318" data-name="Group 7318" transform="translate(11.15 -43.256)">
+        <text id="besplatni_infotelefon" data-name="besplatni
+infotelefon" transform="translate(305.85 3996.256)" fill="#fff" font-size="28" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="-74.984" y="0">BESPLATNI</tspan><tspan x="-95.368" y="35">INFOTELEFON</tspan></text>
+        <text id="_0800_500_11" data-name="0800 500 11" transform="translate(289.85 4089.256)" fill="#fff" font-size="27" font-family="Raleway-Regular, Raleway"><tspan x="-75.114" y="0">0800 500 11</tspan></text>
+        <g id="Forward_arrow" data-name="Forward arrow" transform="translate(388.594 4071.901)">
+          <path id="Path_10" data-name="Path 10" d="M10.613,0,8.8,1.81l6.853,6.853H-2.688v2.586H15.655L8.8,18.1l1.81,1.81,9.956-9.956Z" transform="translate(2.688)" fill="#fff"/>
+        </g>
+        <g id="Group_7325" data-name="Group 7325" transform="translate(264.368 3833.776)">
+          <g id="Group_7324" data-name="Group 7324" transform="translate(0 0)">
+            <g id="Group_7323" data-name="Group 7323" transform="translate(0 0)">
+              <path id="Path_838" data-name="Path 838" d="M81.355,65.972l-9.2-6.132L63.98,54.39a3.622,3.622,0,0,0-4.864.79l-5.059,6.5a3.6,3.6,0,0,1-4.6.954c-3.433-1.91-7.493-3.708-16.45-12.677S22.239,36.944,20.33,33.511a3.6,3.6,0,0,1,.954-4.6l6.5-5.059a3.622,3.622,0,0,0,.79-4.864L23.3,11.063,17,1.613a3.622,3.622,0,0,0-4.876-1.1L4.854,4.875A8.877,8.877,0,0,0,.823,10.092c-1.987,7.244-2.387,23.223,23.222,48.833S65.632,84.132,72.876,82.145a8.875,8.875,0,0,0,5.217-4.031l4.359-7.265A3.622,3.622,0,0,0,81.355,65.972Z" transform="translate(0 0)" fill="#fff"/>
+              <path id="Path_839" data-name="Path 839" d="M283.912,64.653A24.345,24.345,0,0,1,308.23,88.971a1.431,1.431,0,0,0,2.861,0,27.209,27.209,0,0,0-27.179-27.179,1.43,1.43,0,1,0,0,2.861Z" transform="translate(-236.708 -51.779)" fill="#fff"/>
+              <path id="Path_840" data-name="Path 840" d="M283.911,117.617a15.753,15.753,0,0,1,15.735,15.735,1.431,1.431,0,0,0,2.861,0,18.617,18.617,0,0,0-18.6-18.6,1.431,1.431,0,0,0,0,2.861Z" transform="translate(-236.707 -96.16)" fill="#fff"/>
+              <path id="Path_841" data-name="Path 841" d="M283.912,170.584a7.161,7.161,0,0,1,7.152,7.152,1.431,1.431,0,0,0,2.861,0,10.025,10.025,0,0,0-10.013-10.013,1.43,1.43,0,1,0,0,2.861Z" transform="translate(-236.708 -140.545)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

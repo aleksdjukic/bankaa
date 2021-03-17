@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* Slider */
+.slick-loading .slick-list {
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 15px;
+    height: 24px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 40px;
+    background: url("icon/arrow-left.svg") no-repeat;
+    transform: translate(0, -50%) rotate(-180deg);
+}
+
+#otherArticles .slick-prev, #news .slick-prev {
+    left: 0;
+    background: url("icon/arrow-left-black.svg") no-repeat;
+    transform: translate(-65px, -50%);
+}
+
+.slick-next {
+    right: 140px;
+    background: url("icon/arrow-left.svg") no-repeat;
+    transform: translate(0, -50%);
+}
+
+#otherArticles .slick-next, #news .slick-next {
+    right: 0;
+    background: url("icon/arrow-left-black.svg") no-repeat;
+    transform: translate(65px, -50%) rotate(-180deg);
+}
+
+.slick-dots {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+    border-radius: 30px;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li.slick-active {
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.slick-dots li:hover{
+    background-color: white;
+    opacity: 0.75;
+    transition: all 0.3s;
+}
